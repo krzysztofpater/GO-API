@@ -1,0 +1,10 @@
+//Requires REST CLIENT addon to Visual Studio Code
+POST  http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "name": "Sample Event",
+  "description": "This is a sample event description.",
+  "location": "Sample Location",
+  "datetime": "2024-12-30T20:00:00.000Z"
+}
